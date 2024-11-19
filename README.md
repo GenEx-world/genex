@@ -19,7 +19,6 @@ Planning with partial observation is a key challenge in embodied AI. While prior
 # Contents
 - [Contents](#contents)
 - [Genex](#genex)
-    - [Key Features](#key-features)
     - [Architecture](#architecture)
     - [Exploration](#exploration)
     - [Embodied AI](#embodied-ai)
@@ -33,7 +32,7 @@ Planning with partial observation is a key challenge in embodied AI. While prior
 
 **Generative World Explorer (Genex)** introduces a novel approach for planning with partial observation in embodied AI. Unlike traditional methods requiring physical exploration to update beliefs about the world, Genex enables agents to perform **mental exploration** of large-scale 3D environments (e.g., urban scenes) through video generation. This capability allows agents to imagine unseen parts of the world and make informed decisions without prior physical exploration.
 
-### Key Features
+
 
 - **Video Generation**: Genex employs a video generation model to create realistic 360-degree panoramic video sequences simulating forward movement.
 - **Exploration Consistency**: Ensures navigational cycle consistency by generating consistent views when returning to the origin.
@@ -66,7 +65,7 @@ views. Realizing this, you act immediately to warn them, preventing a collision.
 
 ### Interactive Demo
 
-Try the [interactive demo](https://generative-world-explorer.github.io) to explore Genex's capabilities.
+Try the [interactive demo](https://generative-world-explorer.github.io/#interactive_demo) to explore Genex's capabilities.
 
 
 # Code Usage
