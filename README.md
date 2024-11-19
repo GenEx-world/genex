@@ -1,12 +1,22 @@
-# Generative World Explorer
+<p align="center">
+    <img src="./pics/icon.png" width="250"/>
+</p>
+<div align="center">
+    <a href="https://generative-world-explorer.github.io"><img src="https://img.shields.io/badge/🌐 Website-Visit-orange"></a>
+    <a href="https://arxiv.org/abs/2411.11844"><img src="https://img.shields.io/badge/arXiv-Abstract-red"></a>
+    <a href="https://arxiv.org/pdf/2411.11844"><img src="https://img.shields.io/badge/arXiv-PDF-blue"></a>
+</div>
 
+
+## Generative Wolrd Explorer
 Planning with partial observation is a key challenge in embodied AI. While prior works rely on physical exploration to update beliefs about the world, humans mentally imagine unseen parts to make informed decisions without constant physical exploration. To emulate this, we introduce **Generative World Explorer (Genex)**, an egocentric framework enabling agents to mentally explore large-scale 3D worlds (e.g., urban scenes) and update their beliefs using imagined observations. Trained on a synthetic dataset, **Genex-DB**, Genex generates high-quality observations over long horizons, improving decision-making for models like LLM agents by providing updated beliefs.
 
-🌐 **Website** [https://generative-world-explorer.github.io/](https://generative-world-explorer.github.io/)
+
+
+
 
 
 # Contents
-- [Generative World Explorer](#generative-world-explorer)
 - [Contents](#contents)
 - [Genex](#genex)
     - [Key Features](#key-features)
@@ -64,7 +74,7 @@ To be released
 
 # BibTeX
 
-```
+```bibtex
 @misc{lu2024generativeworldexplorer,
   title={Generative World Explorer}, 
   author={Taiming Lu and Tianmin Shu and Alan Yuille and Daniel Khashabi and Jieneng Chen},
@@ -74,4 +84,3 @@ To be released
   primaryClass={cs.CV},
   url={https://arxiv.org/abs/2411.11844}, 
 }
-```
