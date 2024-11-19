@@ -16,19 +16,18 @@ Planning with partial observation is a key challenge in embodied AI. While prior
 
 
 
-# Contents
-- [Contents](#contents)
+- [Generative Wolrd Explorer](#generative-wolrd-explorer)
 - [Genex](#genex)
-    - [Architecture](#architecture)
-    - [Exploration](#exploration)
-    - [Embodied AI](#embodied-ai)
-    - [Interactive Demo](#interactive-demo)
+  - [Architecture](#architecture)
+  - [Exploration](#exploration)
+  - [Embodied AI](#embodied-ai)
+  - [Interactive Demo](#interactive-demo)
 - [Code Usage](#code-usage)
 - [BibTeX](#bibtex)
 
 
 
-# Genex
+## Genex
 
 **Generative World Explorer (Genex)** introduces a novel approach for planning with partial observation in embodied AI. Unlike traditional methods requiring physical exploration to update beliefs about the world, Genex enables agents to perform **mental exploration** of large-scale 3D environments (e.g., urban scenes) through video generation. This capability allows agents to imagine unseen parts of the world and make informed decisions without prior physical exploration.
 
@@ -65,13 +64,13 @@ views. Realizing this, you act immediately to warn them, preventing a collision.
 
 ### Interactive Demo
 
-Try the [interactive demo](https://generative-world-explorer.github.io/#interactive_demo) to explore Genex's capabilities.
+Try the [interactive demo](https://generative-world-explorer.github.io/#interactive_demo) to explore Genex's capabilities. [To be completed]
 
 
-# Code Usage
+## Code Usage
 To be released
 
-# BibTeX
+## BibTeX
 
 ```bibtex
 @misc{lu2024generativeworldexplorer,
