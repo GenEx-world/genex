@@ -47,7 +47,7 @@ You can use the following script to prepare the Genex-DB-World-Exploration datas
 ```bash
 python prepare_dataset.py \
     --dataset_path /path/to/genex_db_dataset \
-    --output_dir ./processed_dataset \
+    --output_dir ./Genex-DB \
     --scene_types realistic low_texture anime real_world \
     --frames_per_video 50 \
     --num_workers 8 \
@@ -71,7 +71,7 @@ After processing the dataset, you can train your model by pointing to the proces
 
 ```bash
 accelerate launch train_world_explorer \
-    --base_folder=./processed_dataset/realistic \
+    --base_folder=./Genex-DB \
     --pretrained_model_name_or_path=stabilityai/stable-video-diffusion-img2vid-xt-1-1 \
     --num_frames=25 \
     --width=1024 \
