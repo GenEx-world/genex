@@ -27,6 +27,14 @@ def save_images_parallel(dataset, folder_path, dataset_name, num_processes=8):
 os.makedirs("dataset/instance_images", exist_ok=True)
 os.makedirs("dataset/val", exist_ok=True)
 
+# Copy the existing pano_mask.png from this directory to the dataset folder
+source_mask = "pano_mask.png"  # Replace with actual path
+if os.path.exists(source_mask):
+    shutil.copy(source_mask, "dataset/pano_mask.png")
+    print("Copied pano_mask.png to dataset folder")
+else:
+    print("Warning: pano_mask.png not found in current directory")
+
 # Download the dataset
 dataset = datasets.load_dataset("genex-world/GenEx-DB-Panorama-World", num_proc=8)
 
@@ -41,13 +49,5 @@ save_images_parallel(train_dataset, "dataset/instance_images", "training", num_p
 print(f"Starting to save {len(val_dataset)} validation images...")
 # Save validation images with 8 processes
 save_images_parallel(val_dataset, "dataset/val", "validation", num_processes=8)
-
-# Copy the existing pano_mask.png from this directory to the dataset folder
-source_mask = "pano_mask.png"  # Replace with actual path
-if os.path.exists(source_mask):
-    shutil.copy(source_mask, "dataset/pano_mask.png")
-    print("Copied pano_mask.png to dataset folder")
-else:
-    print("Warning: pano_mask.png not found in current directory")
 
 print("Dataset preparation complete!")

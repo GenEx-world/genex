@@ -100,6 +100,7 @@ wandb
 tqdm
 accelerate
 peft
+sentencepiece
 ```
 
 ## 📚 Model Architecture
