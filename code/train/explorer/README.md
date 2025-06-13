@@ -148,8 +148,6 @@ numpy>=1.24.0
 tqdm>=4.65.0
 wandb>=0.15.0
 datasets
-accelerate
-transformers
 ```
 
 For optimal performance:
