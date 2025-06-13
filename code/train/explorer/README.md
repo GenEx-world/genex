@@ -107,7 +107,7 @@ accelerate launch --config_file /path/to/accelerate_config.yaml train_world_expl
 Here's a concrete example with realistic parameters:
 
 ```bash
-accelerate launch --config_file ./accelerate_config.yaml train_world_explorer \
+accelerate launch --config_file ./accelerate_config.yaml train_world_explorer.py \
     --base_folder=./data/panoramic_scenes \
     --pretrained_model_name_or_path=stabilityai/stable-video-diffusion-img2vid-xt-1-1 \
     --num_frames=25 \
@@ -147,6 +147,9 @@ opencv-python>=4.7.0
 numpy>=1.24.0
 tqdm>=4.65.0
 wandb>=0.15.0
+datasets
+accelerate
+transformers
 ```
 
 For optimal performance:
