@@ -99,6 +99,7 @@ pillow
 wandb
 tqdm
 accelerate
+peft
 ```
 
 ## 📚 Model Architecture
