@@ -98,6 +98,7 @@ numpy
 pillow
 wandb
 tqdm
+accelerate
 ```
 
 ## 📚 Model Architecture
