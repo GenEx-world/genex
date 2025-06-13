@@ -2,12 +2,14 @@
     <img src="./pics/icon.png" width="250"/>
 </p>
 <div align="center">
-    <a href="https://generative-world-explorer.github.io"><img src="https://img.shields.io/badge/🌐 Website-Visit-slateblue"></a>
+    <a href="https://genex.world"><img src="https://img.shields.io/badge/🌐 Website-Visit-slateblue"></a>
     <a href="https://www.youtube.com/watch?v=cf4apIcnPtU" target="_blank"><img src="https://img.shields.io/badge/Demo-Watch-red?style=flat&logo=youtube&logoColor=white"></a>
+    <a href="https://genex-world.github.io" target="_blank"><img src="https://img.shields.io/badge/Demo-Page-green?style=flat&logo=google-chrome"></a>
+    <a href="https://x.com/genex_world" target="_blank"><img src="https://img.shields.io/badge/Follow-Twitter-black?style=flat&logo=twitter&logoColor=white"></a>
     <a href="https://arxiv.org/abs/2411.11844"><img src="https://img.shields.io/badge/arXiv-Abstract-orange"></a>
     <a href="https://arxiv.org/pdf/2411.11844"><img src="https://img.shields.io/badge/arXiv-PDF-blue"></a>
-    <a href="https://huggingface.co/papers/2411.11844"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Page-goldenrod"></a>
-    <a href="https://github.com/Beckschen/genex" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-darkgray?style=flat&logo=github"></a>
+    <a href="https://huggingface.co/genex-world"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Page-goldenrod"></a>
+    <a href="https://github.com/GenEx-world/genex" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repo-darkgray?style=flat&logo=github"></a>
 </div>
 
 
@@ -67,21 +69,22 @@ views. Realizing this, you act immediately to warn them, preventing a collision.
 
 ### Interactive Demo
 
-Try the [interactive demo](https://generative-world-explorer.github.io/#interactive_demo) to explore Genex's capabilities. [To be completed]
+Try the [interactive demo](https://genex-world.github.io/) to explore Genex's capabilities (currently paused due to compute limit). For full demo, please deploy the server on local GPUs with **/code/demo/**.
 
 
 ## Code Usage
-To be released
+See **/code/**.
 
 ## BibTeX
 
 ```bibtex
-@misc{lu2024generativeworldexplorer,
-  title={Generative World Explorer}, 
-  author={Taiming Lu and Tianmin Shu and Alan Yuille and Daniel Khashabi and Jieneng Chen},
-  year={2024},
-  eprint={2411.11844},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2411.11844}, 
+@misc{lu2025genexgeneratingexplorableworld,
+      title={GenEx: Generating an Explorable World}, 
+      author={Taiming Lu and Tianmin Shu and Junfei Xiao and Luoxin Ye and Jiahao Wang and Cheng Peng and Chen Wei and Daniel Khashabi and Rama Chellappa and Alan Yuille and Jieneng Chen},
+      year={2025},
+      eprint={2412.09624},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.09624}, 
 }
+```

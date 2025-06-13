@@ -1,0 +1,11 @@
+torch>=2.0.0
+diffusers>=0.24.0
+transformers>=4.30.0
+accelerate>=0.20.0
+einops>=0.6.0
+pillow>=9.4.0
+opencv-python>=4.7.0
+numpy>=1.24.0
+tqdm>=4.65.0
+wandb>=0.15.0
+datasets
