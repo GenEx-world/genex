@@ -35,6 +35,13 @@ The following script demonstrates how to process this dataset and extract the fr
 
 ### Sample Usage
 
+To start, download the GenEx-DB from huggingface
+
+```bash
+git lfs install
+git clone https://huggingface.co/datasets/genex-world/Genex-DB-World-Exploration
+```
+
 You can use the following script to prepare the Genex-DB-World-Exploration dataset for GenEx-Explorer training. This script extracts frames from the MP4 videos in the dataset and organizes them in the required folder structure:
 
 ```bash
