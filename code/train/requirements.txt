@@ -10,3 +10,4 @@ tqdm>=4.65.0
 wandb>=0.15.0
 datasets
 peft
+sentencepiece
