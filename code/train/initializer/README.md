@@ -56,7 +56,7 @@ export OUTPUT_DIR="./output_directory"
 
 # Launch training
 accelerate launch --num_processes=4 --mixed_precision=bf16 \
-  train_fluxfill_lora_pano.py \
+  train_world_initializer.py \
   --pretrained_model_name_or_path="$MODEL_NAME" \
   --instance_data_dir="$INSTANCE_DIR" \
   --instance_prompt="Panoramic World Initialization" \
