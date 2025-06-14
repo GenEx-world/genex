@@ -85,6 +85,7 @@ See **/code/**.
       eprint={2412.09624},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.09624}, 
+      url={https://arxiv.org/abs/2412.09624},
+      booktitle = {13th International Conference on Learning Representations (ICLR 2025)},
 }
 ```
